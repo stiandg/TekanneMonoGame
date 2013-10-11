@@ -1,4 +1,6 @@
-# Installer
+# .net frontend faggruppemøte 15. oktober 2013
+
+## Installer
 
 - Windows 8 eller Windows 8.1
 - Visual Studio 2012, evt Visual Studio 2012 Express for Windows 8 (ikke 2013)
@@ -6,19 +8,19 @@
 
 ## Oppgaver
 
-### Oppgave 1:
+### Oppgave 1
 
-Vi ser tekanna rett ovenfra. Flytt kameraet til å peke rett på kanna.
+Vi ser tekanna rett ovenfra. Flytt kameraet slik at vi ser rett på tekanna.
 
 Hint: url:
 
-### Oppgave 2:
+### Oppgave 2
 
-Vi trenger litt lys på tekanna.
+Vi trenger litt lys på tekanna. Legg til en lyskilde.
 
 Hint: 
 
-### Oppgave 3:
+### Oppgave 3
 
 Få tekanna til å rotere.
 
