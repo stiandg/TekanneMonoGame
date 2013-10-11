@@ -6,8 +6,8 @@
             Version="1.0.0.0" />
 
   <Properties>
-    <DisplayName>MyFirstMonoGame</DisplayName>
-    <PublisherDisplayName>StianD</PublisherDisplayName>
+    <DisplayName>TekanneMonoGame</DisplayName>
+    <PublisherDisplayName>NetFrontend</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 
@@ -23,12 +23,12 @@
   <Applications>
     <Application Id="App"
         Executable="$targetnametoken$.exe"
-        EntryPoint="MyFirstMonoGame.App">
+        EntryPoint="TekanneMonoGame.App">
         <VisualElements
-            DisplayName="MyFirstMonoGame"
+            DisplayName="TekanneMonoGame"
             Logo="Assets\Logo.png"
             SmallLogo="Assets\SmallLogo.png"
-            Description="MyFirstMonoGame"
+            Description="TekanneMonoGame"
             ForegroundText="light"
             BackgroundColor="#464646">
             <DefaultTile ShowName="allLogos" />
