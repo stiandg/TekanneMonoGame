@@ -1,4 +1,4 @@
-## .net frontend faggruppemøte 15. oktober 2013
+﻿## .net frontend faggruppemøte 15. oktober 2013
 
 ## Installer
 
@@ -12,19 +12,19 @@
 
 Vi ser tekanna rett ovenfra. Flytt kameraet slik at vi ser rett på tekanna.
 
-Hint: url:
+Hint: view = Matrix.CreateLookAt
 
 ### Oppgave 2
 
 Vi trenger litt lys på tekanna. Legg til en lyskilde.
 
-Hint: 
+Hint: meshPart.Effect
 
 ### Oppgave 3
 
 Få tekanna til å rotere.
 
-Hint:
+Hint: effect.World og Matrix.CreateRotationY
 
 ### Oppgave 4:
 
