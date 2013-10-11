@@ -1,5 +1,6 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
+using Tekanne;
 
 namespace TekanneMonoGame
 {
@@ -12,6 +13,8 @@ namespace TekanneMonoGame
         Matrix view;
 
         float rotationX;
+
+        FlyingCamera camera = new FlyingCamera();
 
         public TekanneMonoGame()
         {
@@ -29,7 +32,6 @@ namespace TekanneMonoGame
             _spriteBatch = new SpriteBatch(GraphicsDevice);
             teapot = Content.Load<Model>(@"teapot");
             projection = Matrix.CreatePerspectiveFieldOfView(MathHelper.PiOver2, GraphicsDevice.Viewport.AspectRatio, 0.1f, 1000f);
-            view = Matrix.CreateLookAt(Vector3.Backward * 50f + Vector3.Up * 40f, Vector3.Zero, Vector3.Up);
         }
 
         protected override void UnloadContent()
@@ -39,6 +41,8 @@ namespace TekanneMonoGame
         protected override void Update(GameTime gameTime)
         {
             rotationX += (float)gameTime.ElapsedGameTime.TotalSeconds * MathHelper.TwoPi;
+
+            camera.Update((float)gameTime.ElapsedGameTime.TotalSeconds);
 
             base.Update(gameTime);
         }
@@ -53,7 +57,7 @@ namespace TekanneMonoGame
                 {
                     var effect = (meshPart.Effect as BasicEffect);
                     effect.Projection = projection;
-                    effect.View = view;
+                    effect.View = camera.View;
 
                     effect.EnableDefaultLighting();
                     effect.DirectionalLight0.DiffuseColor = new Vector3(0.8f, 0.5f, 0.3f);

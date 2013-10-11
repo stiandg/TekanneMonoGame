@@ -127,6 +127,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FlyingCamera.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="TekanneMonoGame.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
