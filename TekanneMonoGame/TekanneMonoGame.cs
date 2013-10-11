@@ -29,7 +29,7 @@ namespace TekanneMonoGame
             _spriteBatch = new SpriteBatch(GraphicsDevice);
             teapot = Content.Load<Model>(@"teapot");
             projection = Matrix.CreatePerspectiveFieldOfView(MathHelper.PiOver2, GraphicsDevice.Viewport.AspectRatio, 0.1f, 1000f);
-            view = Matrix.CreateLookAt(Vector3.Backward * 50f + Vector3.Up * 40f, Vector3.Zero, Vector3.Up);
+            view = Matrix.CreateLookAt(Vector3.Backward * 50f, Vector3.Zero, Vector3.Down);
         }
 
         protected override void UnloadContent()
@@ -54,13 +54,6 @@ namespace TekanneMonoGame
                     var effect = (meshPart.Effect as BasicEffect);
                     effect.Projection = projection;
                     effect.View = view;
-
-                    effect.EnableDefaultLighting();
-                    effect.DirectionalLight0.DiffuseColor = new Vector3(0.8f, 0.5f, 0.3f);
-                    effect.DirectionalLight0.Direction = new Vector3(0.5f, -0.5f, 0.5f);
-                    effect.DirectionalLight0.Enabled = true;
-
-                    effect.World =  Matrix.CreateRotationX(MathHelper.PiOver2 * 3) * Matrix.CreateRotationY(rotationX);
                 }
 
                 mesh.Draw();
