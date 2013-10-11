@@ -33,7 +33,7 @@ Hint: effect.World og Matrix.CreateRotationY
 
 Sjekk ut branchen 'skuret'. Lag en 'fly-through' gjennom skuret-modellen.
 
-## Hjelp:
+## Hjelp!
 
 MonoGame-dokumentasjon: https://github.com/mono/MonoGame/wiki
 
