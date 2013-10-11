@@ -1,30 +1,33 @@
-# .net frontend faggruppem¯te 15. oktober 2013
+Ôªø## .net frontend faggruppem√∏te 15. oktober 2013
 
 ## Installer
 
+- Git
 - Windows 8 eller Windows 8.1
-- Visual Studio 2012, evt Visual Studio 2012 Express for Windows 8 (ikke 2013)
+- Visual Studio 2012, evt Visual Studio 2012 Express for Windows 8 (*)
 - MonoGame 3.0.1 (https://monogame.codeplex.com/releases/view/102870)
+
+(*) Visual Studio 2013 g√•r ogs√• bra, men forel√∏pig mangler det prosjekttemplates for MonoGame.
 
 ## Oppgaver
 
 ### Oppgave 1
 
-Vi ser tekanna rett ovenfra. Flytt kameraet slik at vi ser rett pÂ tekanna.
+Vi ser tekanna rett ovenfra. Flytt kameraet slik at vi ser rett p√• tekanna.
 
-Hint: url:
+Hint: view = Matrix.CreateLookAt
 
 ### Oppgave 2
 
-Vi trenger litt lys pÂ tekanna. Legg til en lyskilde.
+Vi trenger litt lys p√• tekanna. Legg til en lyskilde.
 
-Hint: 
+Hint: meshPart.Effect
 
 ### Oppgave 3
 
-FÂ tekanna til Â rotere.
+F√• tekanna til √• rotere.
 
-Hint:
+Hint: effect.World og Matrix.CreateRotationY
 
 ### Oppgave 4:
 

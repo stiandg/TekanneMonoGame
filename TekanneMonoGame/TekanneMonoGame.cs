@@ -10,7 +10,6 @@ namespace TekanneMonoGame
         SpriteBatch _spriteBatch;
         Model teapot;
         Matrix projection;
-        Matrix view;
 
         float rotationX;
 
