@@ -1,4 +1,4 @@
-## .net frontend faggruppem�øe 15. oktober 2013
+## .net frontend faggruppemøte 15. oktober 2013
 
 ## Installer
 
@@ -10,19 +10,19 @@
 
 ### Oppgave 1
 
-Vi ser tekanna rett ovenfra. Flytt kameraet slik at vi ser rett p� tekanna.
+Vi ser tekanna rett ovenfra. Flytt kameraet slik at vi ser rett på tekanna.
 
 Hint: url:
 
 ### Oppgave 2
 
-Vi trenger litt lys p� tekanna. Legg til en lyskilde.
+Vi trenger litt lys på tekanna. Legg til en lyskilde.
 
 Hint: 
 
 ### Oppgave 3
 
-F� tekanna til � rotere.
+Få tekanna til å rotere.
 
 Hint:
 
