@@ -25,7 +25,7 @@ Hint: meshPart.Effect
 
 ### Oppgave 3
 
-Få tekanna til å rotere.
+Tekanna står i ro. Boring! Få tekanna til å rotere.
 
 Hint: effect.World og Matrix.CreateRotationY
 
@@ -33,12 +33,8 @@ Hint: effect.World og Matrix.CreateRotationY
 
 Sjekk ut branchen 'skuret'. Lag en 'fly-through' gjennom skuret-modellen.
 
-Hint: 
-
 ## Hjelp:
 
-MonoGame-dokumentasjon: 
+MonoGame-dokumentasjon: https://github.com/mono/MonoGame/wiki
 
-3D-modeller:
-- http://www.hongkiat.com/blog/60-excellent-free-3d-model-websites/
 
