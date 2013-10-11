@@ -2,9 +2,11 @@
 
 ## Installer
 
+- Git
 - Windows 8 eller Windows 8.1
-- Visual Studio 2012, evt Visual Studio 2012 Express for Windows 8 (ikke 2013)
+- Visual Studio 2012, evt Visual Studio 2012 Express for Windows 8 (*)
 - MonoGame 3.0.1 (https://monogame.codeplex.com/releases/view/102870)
+(*) Visual Studio 2013 går også bra, men foreløpig mangler det prosjekttemplates for MonoGame.
 
 ## Oppgaver
 
