@@ -29,7 +29,7 @@ namespace TekanneMonoGame
         protected override void LoadContent()
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
-            teapot = Content.Load<Model>(@"teapot");
+            teapot = Content.Load<Model>(@"skuret");
             projection = Matrix.CreatePerspectiveFieldOfView(MathHelper.PiOver2, GraphicsDevice.Viewport.AspectRatio, 0.1f, 1000f);
         }
 
@@ -39,7 +39,7 @@ namespace TekanneMonoGame
 
         protected override void Update(GameTime gameTime)
         {
-            rotationX += (float)gameTime.ElapsedGameTime.TotalSeconds * MathHelper.TwoPi;
+            //rotationX += (float)gameTime.ElapsedGameTime.TotalSeconds * MathHelper.TwoPi;
 
             camera.Update((float)gameTime.ElapsedGameTime.TotalSeconds);
 

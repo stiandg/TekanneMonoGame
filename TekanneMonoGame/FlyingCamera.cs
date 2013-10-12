@@ -34,14 +34,14 @@ namespace Tekanne
             RotationMatrix = Matrix.CreateFromYawPitchRoll(Rotation.Y, Rotation.X, 0f);
 
             if (keyboardState.IsKeyDown(Keys.W))
-                Position += Vector3.TransformNormal(Vector3.Forward, RotationMatrix) * deltaTime * 10f;
+                Position += Vector3.TransformNormal(Vector3.Forward, RotationMatrix) * deltaTime * 100f;
             else if (keyboardState.IsKeyDown(Keys.S))
-                Position += Vector3.TransformNormal(Vector3.Backward, RotationMatrix) * deltaTime * 10f;
+                Position += Vector3.TransformNormal(Vector3.Backward, RotationMatrix) * deltaTime * 100f;
 
             if (keyboardState.IsKeyDown(Keys.A))
-                Position += Vector3.TransformNormal(Vector3.Left, RotationMatrix) * deltaTime * 10f;
+                Position += Vector3.TransformNormal(Vector3.Left, RotationMatrix) * deltaTime * 100f;
             else if (keyboardState.IsKeyDown(Keys.D))
-                Position += Vector3.TransformNormal(Vector3.Right, RotationMatrix) * deltaTime * 10f;
+                Position += Vector3.TransformNormal(Vector3.Right, RotationMatrix) * deltaTime * 100f;
 
             if (keyboardState.IsKeyDown(Keys.LeftShift))
                 Position += Vector3.Up * deltaTime * 10f;
