@@ -13,7 +13,7 @@
 
 ### Oppgave 1
 
-Vi ser tekanna rett ovenfra. Flytt kameraet slik at vi ser rett på tekanna.
+Vi ser tekanna rett ovenfra. Flytt kameraet slik at vi ser rett på tekanna forfra.
 
 Hint: view = Matrix.CreateLookAt
 
@@ -31,7 +31,7 @@ Hint: effect.World og Matrix.CreateRotationY
 
 ### Oppgave 4:
 
-Sjekk ut branchen 'skuret'. Lag en 'fly-through' gjennom skuret-modellen.
+Sjekk ut branchen 'flyingcamera'.
 
 ## Hjelp!
 
