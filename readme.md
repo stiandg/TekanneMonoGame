@@ -31,7 +31,7 @@ Hint: effect.World og Matrix.CreateRotationY
 
 ### Oppgave 4:
 
-Sjekk ut branchen 'flyingcamera'.
+Sjekk ut branchen 'flyingcamera'. Test ut å fly rundt tekanna. Bytt ut modellen av tekanna med skuret-modellen.
 
 ## Hjelp!
 
