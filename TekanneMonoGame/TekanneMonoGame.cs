@@ -29,7 +29,7 @@ namespace TekanneMonoGame
         protected override void LoadContent()
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
-            teapot = Content.Load<Model>(@"skuret");
+            teapot = Content.Load<Model>(@"teapot");
             projection = Matrix.CreatePerspectiveFieldOfView(MathHelper.PiOver2, GraphicsDevice.Viewport.AspectRatio, 0.1f, 1000f);
         }
 
