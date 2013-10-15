@@ -30,6 +30,9 @@ namespace TekanneMonoGame
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
             teapot = Content.Load<Model>(@"teapot");
+
+            var font = Content.Load<SpriteFont>(@"SpriteFont1");
+ 
             projection = Matrix.CreatePerspectiveFieldOfView(MathHelper.PiOver2, GraphicsDevice.Viewport.AspectRatio, 0.1f, 1000f);
         }
 
